@@ -1,10 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 <title>About Loyalty Programme</title>
 
 <link rel="stylesheet" href="About Loyalty Programme.css">
-<script src="loyalty.js"></script>
 
 </head>
 <body style="font-family: Times New Roman; font-size:120%; text-align:justify; background-color:#D0D3D4;">
@@ -12,56 +15,22 @@
 
 <div style="width:100%; height:100%; margin-top: 3%; margin-bottom: 5%;">
 
-
-<!--@media screen and (max-width: 400px) {
-<div class="sidenv">
-  <button onclick="myFunctionsidenav()" class="dpbtn">
-  <div style="width: 35px; height: 5px; background-color: black; margin: 6px 0;"></div>
-  <div style="width: 35px; height: 5px; background-color: black; margin: 6px 0;"></div>
-  <div style="width: 35px; height: 5px; background-color: black; margin: 6px 0;"></div>
-  </button>
-  <div id="sdnv" class="sidnav">
-  <br>
-  <a href="https://www.irctc.co.in/" style="font-size: 15px;">IRCTC</a>
-  <a href="#LoyaltyCards">Loyalty Cards</a>
-  <a href="#IrctcLoyaltyProgramme">Loyalty Programme</a>
-  <!--a href="#intro_to_Loyalty">Intro To Loyalty</a-->
-  <!--a style="position: absolute; bottom: 15px;" href="#Collapse">Collapse</a>
-  <a style="position: absolute; bottom: 40px;" href="#Feedback">Feedback</a>  
-  <a style="position: absolute; bottom: 65px;" href="mailto:loyaltyprogram@irctc.co.in">Help & Support</a>
-  </div>
-</div>
-  }
-
-  @media screen and (min-width: 400px) {
 <div class="sidenav">
   <br>
   <a href="https://www.irctc.co.in/" style="font-size: 15px;">IRCTC</a>
   <a href="#LoyaltyCards">Loyalty Cards</a>
   <a href="#IrctcLoyaltyProgramme">Loyalty Programme</a>
   <!--a href="#intro_to_Loyalty">Intro To Loyalty</a-->
-  <!--a style="position: absolute; bottom: 15px;" href="#Collapse">Collapse</a>
-  <a style="position: absolute; bottom: 40px;" href="#Feedback">Feedback</a>  
-  <a style="position: absolute; bottom: 65px;" href="mailto:loyaltyprogram@irctc.co.in">Help & Support</a>
-  
-</div>
-  }-->
-
-
-  <div class="sidenav">
-  <br>
-  <a href="https://www.irctc.co.in/" style="font-size: 15px;">IRCTC</a>
-  <a href="#LoyaltyCards">Loyalty Cards</a>
-  <a href="#IrctcLoyaltyProgramme">Loyalty Programme</a>
-  <!--a href="#intro_to_Loyalty">Intro To Loyalty</a-->
-  <a style="position: absolute; bottom: 15px;" href="#Collapse">Collapse</a>
-  <a style="position: absolute; bottom: 40px;" href="#Feedback">Feedback</a>  
-  <a style="position: absolute; bottom: 65px;" href="mailto:loyaltyprogram@irctc.co.in">Help & Support</a>
+  <a style="position: absolute; bottom: 15px; margin:auto 10px;" href="#Collapse">Collapse</a>
+  <a style="position: absolute; bottom: 50px; margin:auto 10px;" href="#Feedback">Feedback</a>  
+  <a style="position: absolute; bottom: 85px; text-align: center;" href="mailto:loyaltyprogram@irctc.co.in">Help & Support</a>
   
 </div>
 
 
-<div style="margin-left: 160px;">
+
+
+<div class="mainbody">
 
 <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC" width="40px" height="40px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 2%;">
 
@@ -125,25 +94,25 @@ function topFunction() {
 
 <h3 style="text-align: left; margin-top: 2%;" id=SBI><br> IRCTC SBI CARDS: </h3>
 
-<div style="width:100%; height:37%; margin-top: 2%; margin-bottom: 5%;">
+<div style="width:100%; margin-top: 2%; margin-bottom: 5%; display: block;" class="sbicards">
 
 
 
 <div style="width:33%; float:left;">
 <center><b>IRCTC SBI Basic Card</b></center><br>
-<a href="#IRCTC_BASIC_CARDS"><img src="irctc-sbi-platinum-credit-card-review.jpg" alt="SBI Rupay Card" width="225" height="150" style="border-radius: 5%; margin-left:2px; width:98%; height:98%; "></a>
+<a href="#IRCTC_BASIC_CARDS"><img src="irctc-sbi-platinum-credit-card-review.jpg" alt="SBI Rupay Card"  style="border-radius: 5%; margin-left:2px;" class="cardspic"></a>
 <center><br>Click to <a href="#IRCTC_BASIC_CARDS">Know More</a></center>
 </div>
 
 <div style="width:33%; float:left;">
 <center><b>IRCTC SBI Platinum Card</b></center><br>
-<a href="#IRCTC_BASIC_PLATINUM_CARDS"><img src="125468-irctc-sbi-card-on-rupay-front.png" alt="SBI Rupay Card" width="225" height="150" style="border-radius: 5%; width:100%; height:98%;"></a>
+<a href="#IRCTC_BASIC_PLATINUM_CARDS"><img src="125468-irctc-sbi-card-on-rupay-front.png" alt="SBI Rupay Card"  style="border-radius: 5%; " class="cardspic"></a>
 <center><br>Click to <a href="#IRCTC_BASIC_PLATINUM_CARDS">Know More</a></center>
 </div>
 
 <div style="width:33%; float:left;">
 <center><b>IRCTC SBI Premeir Card</b></center><br>
-<a href="#IRCTC_BASIC_PREMEIR_CARDS"><img src="sbi-irctc-premier-credit-card.jpg" alt="SBI Premeir Credit Card" width="225" height="150" style="border-radius: 5%; margin-left:5px; width:100%; height:98%;"></a>
+<a href="#IRCTC_BASIC_PREMEIR_CARDS"><img src="sbi-irctc-premier-credit-card.jpg" alt="SBI Premeir Credit Card"  style="border-radius: 5%; margin-left:5px;" class="cardspic"></a>
 <center><br>Click to <a href="#IRCTC_BASIC_PREMEIR_CARDS">Know More</a></center>
 </div>
 </div><br><br><br>
@@ -551,7 +520,7 @@ padding: 5px;">
 
 <li style="margin-bottom: 2%;">5% back on Air ticket purchases on <a href="www.ecatering.irctc.co.in" style="text-decoration: none;">www.ecatering.irctc.co.in</a></li>
 
-<li style="margin-bottom: 2%;>Buy tickets through <a href="https://www.irctc.co.in" style="text-decoration: none;">www.irctc.co.in</a> & IRCTC Mobile App for AC1, AC2, AC3, Executive Chair car and Chair Car and earn up to 10% Value Back as Reward Points.</li>
+<li style="margin-bottom: 2%;"">Buy tickets through <a href="https://www.irctc.co.in" style="text-decoration: none;">www.irctc.co.in</a> & IRCTC Mobile App for AC1, AC2, AC3, Executive Chair car and Chair Car and earn up to 10% Value Back as Reward Points.</li>
 <li>W.e.f. 01 Apr'21, Reward Points will be transferred to cardholder s IRCTC Loyalty A/c and can be redeemed at IRCTC Website or Mobile App</li></ul></div>
 </div>
 
